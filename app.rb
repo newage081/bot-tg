@@ -1,3 +1,4 @@
+require 'bundler/setup'
 require 'telegram/bot'
 require 'active_record'
 require 'prawn'

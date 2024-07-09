@@ -78,6 +78,7 @@ GEM
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
     matrix (0.4.2)
+    mini_portile2 (2.8.7)
     minitest (5.24.1)
     multipart-post (2.4.1)
     mutex_m (0.2.0)
@@ -88,8 +89,8 @@ GEM
     nokogiri (1.16.6-x86_64-linux)
       racc (~> 1.4)
     pdf-core (0.10.0)
-    pg (1.5.6-x64-mingw32)
     pg (1.5.6)
+    pg (1.5.6-x64-mingw32)
     prawn (2.5.0)
       matrix (~> 0.4)
       pdf-core (~> 0.10.0)
@@ -148,6 +149,7 @@ PLATFORMS
 
 DEPENDENCIES
   dotenv-rails
+  mini_portile2 (~> 2.8.2)
   pg
   prawn
   prawn-table
